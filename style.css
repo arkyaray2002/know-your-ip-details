@@ -1,0 +1,36 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: purple;
+    color: yellow;
+}
+button{
+    height: 70px;
+    width: 80px;
+    background-color: yellow;
+    border: 5px solid red;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+tr,td{
+    border: 3px solid yellow;
+    padding: 5px;
+}
+table{
+    border: 10px solid yellow;
+    border-spacing: 5px;
+    margin: auto;
+}
+
+.blink {
+    animation: blinker 3s linear infinite;
+    color: red;
+}
+@keyframes blinker {
+        50% {
+        opacity: 0;
+    }
+}
