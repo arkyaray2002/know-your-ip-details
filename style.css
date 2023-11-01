@@ -3,6 +3,7 @@ body {
     background-color: purple;
     color: yellow;
 }
+
 button{
     height: 70px;
     width: 80px;
@@ -16,10 +17,17 @@ button{
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
+button:hover{
+    height: 105px;
+    width: 120px;
+    font-size: larger;
+}
+
 tr,td{
     border: 3px solid yellow;
     padding: 5px;
 }
+
 table{
     border: 10px solid yellow;
     border-spacing: 5px;
