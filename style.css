@@ -6,6 +6,7 @@ body {
 button{
     height: 70px;
     width: 80px;
+    cursor: pointer;
     background-color: yellow;
     border: 5px solid red;
     margin: 0;
