@@ -18,8 +18,8 @@ button{
     transform: translate(-50%, -50%);
 }
 button:hover{
-    height: 105px;
-    width: 120px;
+    height: 90px;
+    width: 102px;
     font-size: larger;
 }
 
